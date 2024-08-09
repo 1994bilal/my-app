@@ -12,7 +12,7 @@ const Project = () => {
       <div className="p-4 md:w-1/3 cursor-pointer">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <Image
-            alt="blog"
+            alt=""
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src={require("../../public/assets/rr.png")}
           />
@@ -39,7 +39,7 @@ const Project = () => {
       <div className="p-4 md:w-1/3 cursor-pointer">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <Image
-            alt="blog"
+            alt=""
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src={require("../../public/assets/res.png")}
           />
@@ -66,7 +66,7 @@ const Project = () => {
       <div className="p-4 md:w-1/3 cursor-pointer">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <Image
-            alt="blog"
+            alt=""
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src={require("../../public/assets/web.png")}
           />
