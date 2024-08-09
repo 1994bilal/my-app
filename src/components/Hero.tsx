@@ -34,8 +34,9 @@ const Hero = () => {
       </h1>
       <div className='w-[250px] h-[2px] bg-blue-700'></div>
       <p className="mb-8 leading-relaxed">
-        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.
-      </p>
+      "Hi, I'm Bilal Fiaz – a passionate Web Developer and AI Engineer. With a strong foundation in HTML, CSS, 
+      TypeScript, Next.js, React, and WordPress, I specialize in creating seamless, high-performance web applications 
+      and dynamic AI-driven solutions. Let’s bring your digital vision to life with cutting-edge technology and creativity."      </p>
       <div className="flex justify-center">
         <Link href={"#Contact"}>
         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
