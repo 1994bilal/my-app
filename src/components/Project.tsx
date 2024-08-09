@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Project = () => {
   return (
@@ -10,10 +11,10 @@ const Project = () => {
       {/*Project 1*/}
       <div className="p-4 md:w-1/3 cursor-pointer">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             alt="blog"
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="assets/rr.png"
+            src={require("assets/rr.png")}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -37,10 +38,10 @@ const Project = () => {
         {/*Project 2*/}
       <div className="p-4 md:w-1/3 cursor-pointer">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             alt="blog"
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="assets/res.png"
+            src={require("assets/res.png")}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -64,10 +65,10 @@ const Project = () => {
       {/*Project 3*/}
       <div className="p-4 md:w-1/3 cursor-pointer">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             alt="blog"
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src="assets/web.png"
+            src={require("assets/web.png")}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
