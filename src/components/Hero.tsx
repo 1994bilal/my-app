@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Typewriter from 'typewriter-effect';
@@ -10,10 +11,10 @@ const Hero = () => {
         <section className="text-white body-font bg-fixed bg-cover bg center custom-image">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img
+      <Image
         alt="hero"
         className="object-cover object-center rounded-xl"
-        src="assets/bilal12.jpg"
+        src={require("assets/bilal12.jpg")}
       />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
