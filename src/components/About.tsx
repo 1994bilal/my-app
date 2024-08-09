@@ -35,7 +35,7 @@ const About = () => {
       <Image
         alt="hero"
         className="object-cover object-center rounded"
-        src={require("assets/about.jpg")}
+        src={require("../../public/assets/about.jpg")}
       />
     </div>
   </div>

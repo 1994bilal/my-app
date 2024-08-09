@@ -14,7 +14,7 @@ const Project = () => {
           <Image
             alt="blog"
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src={require("assets/rr.png")}
+            src={require("../../public/assets/rr.png")}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -41,7 +41,7 @@ const Project = () => {
           <Image
             alt="blog"
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src={require("assets/res.png")}
+            src={require("../../public/assets/res.png")}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
@@ -68,7 +68,7 @@ const Project = () => {
           <Image
             alt="blog"
             className="lg:h-48 md:h-36 w-full object-cover object-center"
-            src={require("assets/web.png")}
+            src={require("../../public/assets/web.png")}
           />
           <div className="p-6">
             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">

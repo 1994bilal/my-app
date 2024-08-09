@@ -14,7 +14,7 @@ const Hero = () => {
       <Image
         alt="hero"
         className="object-cover object-center rounded-xl"
-        src={require("assets/bilal12.jpg")}
+        src={require("../../public/assets/bilal12.jpg")}
       />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
